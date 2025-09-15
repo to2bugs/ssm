@@ -1,0 +1,38 @@
+### 根据id获取员工
+GET http://localhost:8080/api/v1/employee/1
+Accept: application/json
+
+### 根据id删除员工
+DELETE http://localhost:8080/api/v1/employee/8
+Accept: application/json
+
+### 新增员工
+POST http://localhost:8080/api/v1/employee
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "luboo",
+  "age": 35,
+  "address": "陆洋区",
+  "email": "sss@qq.com",
+  "gender": "女",
+  "salary": "3012.34"
+}
+
+### 修改员工
+PUT http://localhost:8080/api/v1/employee
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": 11,
+  "name": "呵呵",
+  "age": 28,
+  "address": "中元区",
+  "gender": "bb"
+}
+
+### 查询所有的员工
+GET http://localhost:8080/api/v1/employees
+Accept: application/json

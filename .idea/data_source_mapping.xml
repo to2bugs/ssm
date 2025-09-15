@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourcePerFileMappings">
+    <file url="file://$PROJECT_DIR$/spring-14-tx-isolation/src/main/java/com/otto/spring/dao/BookDao.java" value="78a45214-ee06-474a-9f4a-9330ca9d367c" />
+  </component>
+</project>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/spring-01-ioc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-02-configuration/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-03-mvc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-04-other-annotation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-05-inject/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-06-configurationproperties/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-07-profile/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-08-spring-xml/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-09-lifecycle/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-10-aop-dynamic-proxy/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-11-aop/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-11-beanFactory/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-12-aop-round/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-13-tx/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-14-tx-isolation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-15-tx-propgation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-16-source/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springmvc-01-helloworld/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springmvc-02-request/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springmvc-03-response/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springmvc-04-thymeleaf/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springmvc-05-RESTful/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springmvc-06-best-practise-interceptor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springmvc-07-best-practise-exception/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springmvc-08-best-practise-validate/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

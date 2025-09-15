@@ -1,0 +1,16 @@
+### GET request to example server
+GET https://examples.http-client.intellij.net/get
+    ?generated-in=IntelliJ IDEA
+
+### 编程式异常处理
+GET http://localhost:8080/exp1
+
+
+### 声明式异常处理
+GET http://localhost:8080/exp2?i=2
+Accept: application/json
+
+
+### 声明式业务异常的处理
+GET http://localhost:8080/exp3
+Accept: application/json

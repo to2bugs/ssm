@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/spring-11-aop/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-10-aop-dynamic-proxy/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-09-lifecycle/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-08-spring-xml/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-07-profile/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-06-configurationproperties/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-05-inject/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-04-other-annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-03-mvc/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-02-configuration/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-01-ioc/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-11-beanFactory/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-12-aop-round/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-13-tx/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-14-tx-isolation/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-15-tx-propgation/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-16-source/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc-01-helloworld/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc-02-request/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc-03-response/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc-04-thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc-05-RESTful/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc-06-best-practise-interceptor/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc-07-best-practise-exception/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc-08-best-practise-validate/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_23_PREVIEW" project-jdk-name="23" project-jdk-type="JavaSDK" />
+</project>

@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1bec6672-d63b-4df2-8508-d7fca15bb22c" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/spring-08-springxml">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring-08-springxml" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="AnnotationType" />
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="HTTP Request" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="HierarchyBrowserManager">
+    <option name="SCOPE" value="All" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/6.2.10/spring-beans-6.2.10-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/6.2.10/spring-context-6.2.10-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/6.2.10/spring-core-6.2.10-sources.jar!/org/springframework/util/Assert.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/6.2.10/spring-tx-6.2.10-sources.jar!/org/springframework/transaction/PlatformTransactionManager.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-17.0.16/Contents/Home/lib/src.zip!/java.base/java/io/File.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="HttpClientOnboardingState">{
+  &quot;isOnboardingCommentShown&quot;: true
+}</component>
+  <component name="HttpClientSelectedEnvironments">
+    <file url="jar://$APPLICATION_PLUGINS_DIR$/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/requests-with-authorization.http" environment="test" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="corretto-17" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="Security Analysis" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="32Goz28HOGqRNM1MYvox8X4abGl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;HTTP Request.employee_api | 修改员工.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.employee_api | 新增员工.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.employee_api | 查询所有的员工.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.employee_api | 根据id删除员工.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.employee_api | 根据id获取员工 (1).executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.employee_api | 根据id获取员工.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.handleException | #2.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.handleException | #4.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.handleException | GET request to example server.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.handleException | 声明式异常处理.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.rest-api | #2.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.rest-api | #3.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.rest-api | #4.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.rest-api | #5.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.rest-api | #6.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.rest-api | ???.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.rest-api_1 | #2.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.rest-api_2 | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.rest-api_2 | #2.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.rest-api_2 | #3.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BookDaoTest.testGetBookPriceById.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BookDaoTest.testQuery.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Spring10AopApplicationTests.testMathCalculator.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Spring10AopApplicationTests.testMathCalculatorDynamicProxy.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Spring10AopApplicationTests.testSelfDefineDynamicProxy.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Spring11AopApplicationTests.testAspect.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Spring12AopRoundApplicationTests.testArround.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Spring13TxApplicationTests.testAddBook.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Spring13TxApplicationTests.testDataSource.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Spring13TxApplicationTests.testDeleteBookById.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Spring13TxApplicationTests.testGetBookById.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Spring13TxApplicationTests.testSubAccountByUsername.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Spring13TxApplicationTests.testUpdateBookStockById.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Spring14TxIsolationApplicationTests.contextLoads.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Springmvc05ResTfulApplicationTests.testDeleteEmployeeById.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Springmvc05ResTfulApplicationTests.testFindEmployeeById.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Springmvc05ResTfulApplicationTests.testInsertEmployee.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Springmvc05ResTfulApplicationTests.testUpdateEmployee.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserShoppingBookTest.testCheckout.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserShoppingBookTest.testTransaction.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.spring-04-other-annotation [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.spring-05-inject [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.spring-06-configurationproperties [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.spring-08-spring-xml [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.spring-10-aop [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.spring-10-aop-dynamic-proxy [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.springmvc-01-helloworld [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ssm [clean].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;Spring Boot.Spring01IocApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Spring02ConfigurationApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Spring03MvcApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Spring04OtherAnnotationApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Spring05InjectApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Spring06ConfigurationpropertiesApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Spring07ProfileApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Spring08SpringXmlApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Spring09LifecycleApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Spring10AopApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Spring11AopApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Spring11BeanFactoryApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.Spring12AopRoundApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Spring13TxApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Spring14TxIsolationApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Spring15TxPropgationApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Spring16SourceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Springmvc01HelloworldApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Springmvc02RequestApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Springmvc03ResponseApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Springmvc04ThymeleafApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Springmvc05ResTfulApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Springmvc06BestPractiseInterceptorApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Springmvc07BestPractiseExceptionApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Springmvc08BestPractiseValidateApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Springmvc08BestPractiseValidateApplication.executor&quot;: &quot;Run&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/to2bagezero/Downloads/ssm/springmvc-08-best-practise-validate&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.33333334&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/springmvc-08-best-practise-validate" />
+      <recent name="$PROJECT_DIR$/springmvc-08-best-practise-validate/src/main/java/com/otto/springmvc08bestpractisevalidate" />
+      <recent name="$PROJECT_DIR$/springmvc-07-best-practise-exception/src/main/java/com/otto/springmvc" />
+      <recent name="$PROJECT_DIR$/springmvc-05-RESTful" />
+      <recent name="$PROJECT_DIR$/springmvc-06-best-practise-interceptor" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/springmvc-04-thymeleaf/src/main/resources/templates/page" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="configurationStatuses">
+      <map>
+        <entry key="HttpClient.HttpRequestRunConfigurationType">
+          <value>
+            <map>
+              <entry key="employee_api | 修改员工" value="STOPPED" />
+              <entry key="employee_api | 新增员工" value="STOPPED" />
+              <entry key="employee_api | 查询所有的员工" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <map>
+              <entry key="Springmvc08BestPractiseValidateApplication" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="HTTP Request.employee_api | 修改员工">
+    <configuration name="employee_api | 修改员工" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/springmvc-08-best-practise-validate/employee_api.http" executionIdentifier="修改员工" index="4" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="employee_api | 查询所有的员工" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/springmvc-08-best-practise-validate/employee_api.http" executionIdentifier="查询所有的员工" index="5" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="employee_api | 新增员工" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/springmvc-08-best-practise-validate/employee_api.http" executionIdentifier="新增员工" index="3" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="ssm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="ssm" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Springmvc08BestPractiseValidateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springmvc-08-best-practise-validate" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.otto.springmvc.Springmvc08BestPractiseValidateApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.otto.springmvc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.employee_api | 修改员工" />
+        <item itemvalue="Spring Boot.Springmvc08BestPractiseValidateApplication" />
+        <item itemvalue="HTTP Request.employee_api | 查询所有的员工" />
+        <item itemvalue="HTTP Request.employee_api | 新增员工" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-IU-252.25557.131" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1bec6672-d63b-4df2-8508-d7fca15bb22c" name="Changes" comment="" />
+      <created>1743730286982</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743730286982</updated>
+      <workItem from="1743730296796" duration="426000" />
+      <workItem from="1748824451341" duration="64000" />
+      <workItem from="1757056531003" duration="843000" />
+      <workItem from="1757057392036" duration="223000" />
+      <workItem from="1757057624914" duration="424000" />
+      <workItem from="1757069339547" duration="4494000" />
+      <workItem from="1757116377385" duration="2779000" />
+      <workItem from="1757119171283" duration="18931000" />
+      <workItem from="1757147686418" duration="2168000" />
+      <workItem from="1757164613978" duration="1428000" />
+      <workItem from="1757203794241" duration="12919000" />
+      <workItem from="1757229224651" duration="7207000" />
+      <workItem from="1757242546415" duration="213000" />
+      <workItem from="1757301484839" duration="241000" />
+      <workItem from="1757301733237" duration="1586000" />
+      <workItem from="1757303331383" duration="407000" />
+      <workItem from="1757303747683" duration="93000" />
+      <workItem from="1757303846990" duration="24000" />
+      <workItem from="1757303875560" duration="2085000" />
+      <workItem from="1757309160060" duration="6400000" />
+      <workItem from="1757327030431" duration="9434000" />
+      <workItem from="1757377379661" duration="4277000" />
+      <workItem from="1757395733024" duration="4636000" />
+      <workItem from="1757415722007" duration="5044000" />
+      <workItem from="1757477617065" duration="6575000" />
+      <workItem from="1757500287556" duration="7506000" />
+      <workItem from="1757514655187" duration="13000" />
+      <workItem from="1757547866932" duration="6105000" />
+      <workItem from="1757564914170" duration="5249000" />
+      <workItem from="1757571636121" duration="3525000" />
+      <workItem from="1757586807743" duration="8500000" />
+      <workItem from="1757633842071" duration="7088000" />
+      <workItem from="1757655444358" duration="4439000" />
+      <workItem from="1757674862417" duration="1982000" />
+      <workItem from="1757738548317" duration="65000" />
+      <workItem from="1757738622073" duration="17854000" />
+      <workItem from="1757804439773" duration="18203000" />
+      <workItem from="1757825172931" duration="12247000" />
+      <workItem from="1757849845984" duration="5197000" />
+      <workItem from="1757860989496" duration="1091000" />
+      <workItem from="1757915070452" duration="4450000" />
+      <workItem from="1757932411451" duration="6986000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/spring-11-beanFactory/src/main/java/com/otto/spring/Spring11BeanFactoryApplication.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/6.2.10/spring-context-6.2.10-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
+          <line>1289</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/6.2.10/spring-beans-6.2.10-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java</url>
+          <line>391</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/6.2.10/spring-beans-6.2.10-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java</url>
+          <line>562</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

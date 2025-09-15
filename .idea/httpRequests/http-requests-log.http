@@ -1,0 +1,824 @@
+PUT http://localhost:8080/api/v1/employee
+Content-Type: application/json
+Accept: application/json
+Content-Length: 91
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "id": 11,
+  "name": "呵呵",
+  "age": 28,
+  "address": "中元区",
+  "gender": "bb"
+}
+
+<> 2025-09-15T202507.200.json
+
+###
+
+PUT http://localhost:8080/api/v1/employee
+Content-Type: application/json
+Accept: application/json
+Content-Length: 91
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "id": 11,
+  "name": "呵呵",
+  "age": 28,
+  "address": "中元区",
+  "gender": "bb"
+}
+
+<> 2025-09-15T202432.200.json
+
+###
+
+GET http://localhost:8080/api/v1/employees
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-09-15T195804.200.json
+
+###
+
+POST http://localhost:8080/api/v1/employee
+Content-Type: application/json
+Accept: application/json
+Content-Length: 127
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "name": "luboo",
+  "age": 35,
+  "address": "陆洋区",
+  "email": "sss@qq.com",
+  "gender": "女",
+  "salary": "3012.34"
+}
+
+<> 2025-09-15T194208.200.json
+
+###
+
+PUT http://localhost:8080/api/v1/employee
+Content-Type: application/json
+Accept: application/json
+Content-Length: 92
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "id": 11,
+  "name": "呵呵",
+  "age": 28,
+  "address": "中元区",
+  "gender": "男"
+}
+
+<> 2025-09-15T192954.200.json
+
+###
+
+PUT http://localhost:8080/api/v1/employee
+Content-Type: application/json
+Accept: application/json
+Content-Length: 91
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "id": 11,
+  "name": "呵呵",
+  "age": 8,
+  "address": "中元区",
+  "gender": "男"
+}
+
+<> 2025-09-15T192937.200.json
+
+###
+
+PUT http://localhost:8080/api/v1/employee
+Content-Type: application/json
+Accept: application/json
+Content-Length: 91
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "id": 11,
+  "name": "呵呵",
+  "age": 8,
+  "address": "中元区",
+  "gender": "男"
+}
+
+<> 2025-09-15T192717.200.json
+
+###
+
+PUT http://localhost:8080/api/v1/employee
+Content-Type: application/json
+Accept: application/json
+Content-Length: 91
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "id": 11,
+  "name": "呵呵",
+  "age": 8,
+  "address": "中元区",
+  "gender": "男"
+}
+
+<> 2025-09-15T192641.200.json
+
+###
+
+PUT http://localhost:8080/api/v1/employee
+Content-Type: application/json
+Accept: application/json
+Content-Length: 72
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "id": 11,
+  "name": "呵呵",
+  "age": 8,
+  "address": "中元区"
+}
+
+<> 2025-09-15T191323.200.json
+
+###
+
+PUT http://localhost:8080/api/v1/employee
+Content-Type: application/json
+Accept: application/json
+Content-Length: 72
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "id": 11,
+  "name": "呵呵",
+  "age": 8,
+  "address": "中元区"
+}
+
+<> 2025-09-15T191227.200.json
+
+###
+
+PUT http://localhost:8080/api/v1/employee
+Content-Type: application/json
+Accept: application/json
+Content-Length: 14
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "id": 11
+}
+
+<> 2025-09-15T191159.200.json
+
+###
+
+POST http://localhost:8080/api/v1/employee
+Content-Type: application/json
+Accept: application/json
+Content-Length: 127
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "name": "luboo",
+  "age": 35,
+  "address": "陆洋区",
+  "email": "sss@qq.com",
+  "gender": "女",
+  "salary": "3012.34"
+}
+
+<> 2025-09-15T190010.200.json
+
+###
+
+POST http://localhost:8080/api/v1/employee
+Content-Type: application/json
+Accept: application/json
+Content-Length: 127
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "name": "luboo",
+  "age": 35,
+  "address": "陆洋区",
+  "email": "sss@qq.com",
+  "gender": "女",
+  "salary": "3012.34"
+}
+
+<> 2025-09-15T185922.200.json
+
+###
+
+POST http://localhost:8080/api/v1/employee
+Content-Type: application/json
+Accept: application/json
+Content-Length: 118
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "name": "",
+  "age": 280,
+  "address": "陆洋区",
+  "email": "ssscom",
+  "gender": "dd",
+  "salary": "7012.34"
+}
+
+<> 2025-09-15T143048.200.json
+
+###
+
+POST http://localhost:8080/api/v1/employee
+Content-Type: application/json
+Accept: application/json
+Content-Length: 118
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "name": "",
+  "age": 280,
+  "address": "陆洋区",
+  "email": "ssscom",
+  "gender": "dd",
+  "salary": "7012.34"
+}
+
+<> 2025-09-15T141305.200.json
+
+###
+
+POST http://localhost:8080/api/v1/employee
+Content-Type: application/json
+Accept: application/json
+Content-Length: 118
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "name": "",
+  "age": 280,
+  "address": "陆洋区",
+  "email": "ssscom",
+  "gender": "dd",
+  "salary": "7012.34"
+}
+
+<> 2025-09-15T141212.200.json
+
+###
+
+POST http://localhost:8080/api/v1/employee
+Content-Type: application/json
+Accept: application/json
+Content-Length: 119
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "name": "",
+  "age": 280,
+  "address": "陆洋区",
+  "email": "ssscom",
+  "gender": "男",
+  "salary": "7012.34"
+}
+
+<> 2025-09-15T141203.200.json
+
+###
+
+POST http://localhost:8080/api/v1/employee
+Content-Type: application/json
+Accept: application/json
+Content-Length: 119
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "name": "",
+  "age": 280,
+  "address": "陆洋区",
+  "email": "ssscom",
+  "gender": "男",
+  "salary": "7012.34"
+}
+
+<> 2025-09-15T134659.200.json
+
+###
+
+POST http://localhost:8080/api/v1/employee
+Content-Type: application/json
+Accept: application/json
+Content-Length: 117
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "name": "",
+  "age": 280,
+  "address": "陆洋区",
+  "email": "ssscom",
+  "gender": "d",
+  "salary": "7012.34"
+}
+
+<> 2025-09-15T134650.200.json
+
+###
+
+POST http://localhost:8080/api/v1/employee
+Content-Type: application/json
+Accept: application/json
+Content-Length: 119
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "name": "",
+  "age": 280,
+  "address": "陆洋区",
+  "email": "ssscom",
+  "gender": "男",
+  "salary": "7012.34"
+}
+
+<> 2025-09-14T225119.200.json
+
+###
+
+POST http://localhost:8080/api/v1/employee
+Content-Type: application/json
+Accept: application/json
+Content-Length: 122
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "name": "",
+  "age": 280,
+  "address": "陆洋区",
+  "email": "ssscom",
+  "gender": "订单",
+  "salary": "7012.34"
+}
+
+<> 2025-09-14T225110.200.json
+
+###
+
+POST http://localhost:8080/api/v1/employee
+Content-Type: application/json
+Accept: application/json
+Content-Length: 119
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "name": "",
+  "age": 280,
+  "address": "陆洋区",
+  "email": "ssscom",
+  "gender": "女",
+  "salary": "7012.34"
+}
+
+<> 2025-09-14T225102.200.json
+
+###
+
+POST http://localhost:8080/api/v1/employee
+Content-Type: application/json
+Accept: application/json
+Content-Length: 119
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "name": "",
+  "age": 280,
+  "address": "陆洋区",
+  "email": "ssscom",
+  "gender": "女",
+  "salary": "7012.34"
+}
+
+<> 2025-09-14T225039.200.json
+
+###
+
+POST http://localhost:8080/api/v1/employee
+Content-Type: application/json
+Accept: application/json
+Content-Length: 118
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "name": "",
+  "age": 280,
+  "address": "陆洋区",
+  "email": "ssscom",
+  "gender": "ff",
+  "salary": "7012.34"
+}
+
+<> 2025-09-14T225031.200.json
+
+###
+
+POST http://localhost:8080/api/v1/employee
+Content-Type: application/json
+Accept: application/json
+Content-Length: 119
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "name": "",
+  "age": 280,
+  "address": "陆洋区",
+  "email": "ssscom",
+  "gender": "男",
+  "salary": "7012.34"
+}
+
+<> 2025-09-14T225025.200.json
+
+###
+
+POST http://localhost:8080/api/v1/employee
+Content-Type: application/json
+Accept: application/json
+Content-Length: 119
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "name": "",
+  "age": 280,
+  "address": "陆洋区",
+  "email": "ssscom",
+  "gender": "男",
+  "salary": "7012.34"
+}
+
+<> 2025-09-14T224924.200.json
+
+###
+
+POST http://localhost:8080/api/v1/employee
+Content-Type: application/json
+Accept: application/json
+Content-Length: 119
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "name": "",
+  "age": 280,
+  "address": "陆洋区",
+  "email": "ssscom",
+  "gender": "男",
+  "salary": "7012.34"
+}
+
+<> 2025-09-14T224843.200.json
+
+###
+
+POST http://localhost:8080/api/v1/employee
+Content-Type: application/json
+Accept: application/json
+Content-Length: 119
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "name": "",
+  "age": 280,
+  "address": "陆洋区",
+  "email": "ssscom",
+  "gender": "人",
+  "salary": "7012.34"
+}
+
+<> 2025-09-14T224829.200.json
+
+###
+
+POST http://localhost:8080/api/v1/employee
+Content-Type: application/json
+Accept: application/json
+Content-Length: 119
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "name": "",
+  "age": 280,
+  "address": "陆洋区",
+  "email": "ssscom",
+  "gender": "女",
+  "salary": "7012.34"
+}
+
+<> 2025-09-14T212448.200.json
+
+###
+
+POST http://localhost:8080/api/v1/employee
+Content-Type: application/json
+Accept: application/json
+Content-Length: 134
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "name": "上善若水",
+  "age": 28,
+  "address": "陆洋区",
+  "email": "sss@qq.com",
+  "gender": "女",
+  "salary": "7012.34"
+}
+
+<> 2025-09-14T211504.200.json
+
+###
+
+POST http://localhost:8080/api/v1/employee
+Content-Type: application/json
+Accept: application/json
+Content-Length: 133
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "name": "上善若水",
+  "age": 280,
+  "address": "陆洋区",
+  "email": "sssqqcom",
+  "gender": "女",
+  "salary": "7012.34"
+}
+
+<> 2025-09-14T211236.200.json
+
+###
+
+POST http://localhost:8080/api/v1/employee
+Content-Type: application/json
+Accept: application/json
+Content-Length: 133
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "name": "上善若水",
+  "age": 280,
+  "address": "陆洋区",
+  "email": "sssqqcom",
+  "gender": "女",
+  "salary": "7012.34"
+}
+
+<> 2025-09-14T202745.200.json
+
+###
+
+POST http://localhost:8080/api/v1/employee
+Content-Type: application/json
+Accept: application/json
+Content-Length: 134
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "name": "上善若水",
+  "age": 280,
+  "address": "陆洋区",
+  "email": "sss@qqcom",
+  "gender": "女",
+  "salary": "7012.34"
+}
+
+<> 2025-09-14T202737.200.json
+
+###
+
+POST http://localhost:8080/api/v1/employee
+Content-Type: application/json
+Accept: application/json
+Content-Length: 135
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "name": "上善若水",
+  "age": 280,
+  "address": "陆洋区",
+  "email": "sss@qq.com",
+  "gender": "女",
+  "salary": "7012.34"
+}
+
+<> 2025-09-14T202713.200.json
+
+###
+
+POST http://localhost:8080/api/v1/employee
+Content-Type: application/json
+Accept: application/json
+Content-Length: 135
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "name": "上善若水",
+  "age": 280,
+  "address": "陆洋区",
+  "email": "sss@qq.com",
+  "gender": "女",
+  "salary": "7012.34"
+}
+
+<> 2025-09-14T202304.400.json
+
+###
+
+GET http://localhost:8080/exp3
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-09-14T160239.200.json
+
+###
+
+GET http://localhost:8080/exp2?i=2
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-09-14T142911.200.json
+
+###
+
+GET http://localhost:8080/exp2?i=0
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-09-14T142402.200.json
+
+###
+
+GET http://localhost:8080/exp2?i=2
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-09-14T142217.200.json
+
+###
+
+GET http://localhost:8080/exp2?i=0
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-09-14T141116.200.json
+
+###
+
+GET http://localhost:8080/exp2?i=2
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-09-14T141112.200.json
+
+###
+
+GET http://localhost:8080/exp2?i=0
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-09-14T141107.200.json
+
+###
+
+GET http://localhost:8080/exp2?i=2
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-09-14T140601.200.json
+
+###
+
+POST http://localhost:8080/exp2
+Accept: application/json
+Content-Length: 3
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+i=2
+
+<> 2025-09-14T140510.400.json
+
+###
+
+POST http://localhost:8080/exp2
+Accept: application/json
+Content-Length: 3
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+i=2
+
+<> 2025-09-14T140503.400.json
+
+###
+
+POST http://localhost:8080/exp2
+Accept: application/json
+Content-Length: 3
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+i=2
+
+<> 2025-09-14T140456.400.json
+
+###
+
+GET http://localhost:8080/exp2?i=2
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-09-14T140414.200.json
+
+###
+
+GET http://localhost:8080/exp2
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 3
+
+i=2
+
+<> 2025-09-14T140358.400.json
+
+###
+
+GET http://localhost:8080/exp2
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 3
+
+i=2
+
+<> 2025-09-14T140345.404.json
+
+###
+
+GET http://localhost:8080/exp1
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-09-14T135619.200.json
+
+###
+

@@ -1,0 +1,8 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="JavadocDeclaration" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ADDITIONAL_TAGS" value="Valid修饰的参数后，紧跟一个BindingResult参数，用来封装校验结果的" />
+    </inspection_tool>
+  </profile>
+</component>

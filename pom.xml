@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.otto</groupId>
+    <artifactId>ssm</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <!-- 父项目 -->
+    <packaging>pom</packaging>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <!-- 聚合 -->
+    <modules>
+        <module>spring-01-ioc</module>
+        <module>spring-02-configuration</module>
+        <module>spring-03-mvc</module>
+        <module>spring-04-other-annotation</module>
+        <module>spring-05-inject</module>
+        <module>spring-06-configurationproperties</module>
+        <module>spring-07-profile</module>
+        <module>spring-08-spring-xml</module>
+        <module>spring-09-lifecycle</module>
+        <module>spring-10-aop-dynamic-proxy</module>
+        <module>spring-11-aop</module>
+        <module>spring-11-beanFactory</module>
+        <module>spring-12-aop-round</module>
+        <module>spring-13-tx</module>
+        <module>spring-14-tx-isolation</module>
+        <module>spring-15-tx-propgation</module>
+        <module>spring-16-source</module>
+        <module>springmvc-01-helloworld</module>
+        <module>springmvc-02-request</module>
+        <module>springmvc-03-response</module>
+        <module>springmvc-04-thymeleaf</module>
+        <module>springmvc-05-RESTful</module>
+        <module>springmvc-06-best-practise-interceptor</module>
+        <module>springmvc-07-best-practise-exception</module>
+        <module>springmvc-08-best-practise-validate</module>
+    </modules>
+
+</project>

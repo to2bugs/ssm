@@ -1,0 +1,5 @@
+{
+  "code": 500,
+  "msg": "Validation failed for argument [0] in public com.otto.springmvc.common.R com.otto.springmvc.controller.EmployeeRestfulController.add(com.otto.springmvc.bean.Employee): [Field error in object 'employee' on field 'age': rejected value [280]; codes [Max.employee.age,Max.age,Max.java.lang.Integer,Max]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.age,age]; arguments []; default message [age],150]; default message [员工最大年龄不能超过150岁]] ",
+  "data": null
+}

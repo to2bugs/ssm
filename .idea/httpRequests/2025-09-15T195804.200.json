@@ -1,0 +1,60 @@
+{
+  "code": 200,
+  "msg": "success",
+  "data": [
+    {
+      "id": 1,
+      "name": "张三",
+      "age": 11,
+      "email": "aa@qq.com",
+      "gender": "男",
+      "address": "西安",
+      "salary": 9999.00
+    },
+    {
+      "id": 2,
+      "name": "otto",
+      "age": 50,
+      "email": "otto@hotmail.com",
+      "gender": "男",
+      "address": "合肥",
+      "salary": 8321.23
+    },
+    {
+      "id": 9,
+      "name": "totobage",
+      "age": 50,
+      "email": "totobage@gamil.com",
+      "gender": "男",
+      "address": null,
+      "salary": 10000.00
+    },
+    {
+      "id": 10,
+      "name": "上善若水",
+      "age": 28,
+      "email": "sss@qq.com",
+      "gender": "女",
+      "address": "陆洋区",
+      "salary": 7012.34
+    },
+    {
+      "id": 11,
+      "name": "呵呵",
+      "age": 28,
+      "email": "sss@qq.com",
+      "gender": "男",
+      "address": "中元区",
+      "salary": 3012.34
+    },
+    {
+      "id": 12,
+      "name": "luboo",
+      "age": 35,
+      "email": "sss@qq.com",
+      "gender": "女",
+      "address": "陆洋区",
+      "salary": 3012.34
+    }
+  ]
+}

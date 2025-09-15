@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>成功</title>
+</head>
+<body>
+<h1>登陆成功</h1>
+用户名: <h2 th:text="${username}">name</h2>
+密码: <h2 th:text="${password}">pwd</h2>
+<h2>年龄: [[${age}]]</h2>
+
+<!-- 列表 -->
+<table>
+    <thead>
+        <th>序号</th>
+        <th>用户名</th>
+        <th>年龄</th>
+        <th>是否成年</th>
+        <th>行为能力</th>
+    </thead>
+    <tbody>
+        <tr th:each="visitor,status : ${visitors}">
+            <td th:text="${status.index + 1}"></td>
+            <td th:text="${visitor.visitorName}"></td>
+            <td th:text="${visitor.age}"></td>
+            <td th:text="${visitor.age > 18 ? '成年' : '未成年'}"></td>
+            <td th:if="${visitor.age > 18}">
+                <input type="checkbox" checked="checked"/>
+            </td>
+            <td th:if="${visitor.age <= 18}">
+                <input type="checkbox" />
+            </td>
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>
