@@ -245,7 +245,7 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="HTTP Request.employee_api | 根据id获取员工">
+  <component name="RunManager" selected="Spring Boot.Springmvc09BestPractiseSwaggerApplication">
     <configuration name="employee_api | 查询所有的员工" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/springmvc-08-best-practise-validate/employee_api.http" executionIdentifier="查询所有的员工" index="5" runType="Run single request">
       <method v="2" />
     </configuration>
