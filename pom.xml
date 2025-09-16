@@ -43,6 +43,7 @@
         <module>springmvc-06-best-practise-interceptor</module>
         <module>springmvc-07-best-practise-exception</module>
         <module>springmvc-08-best-practise-validate</module>
+        <module>springmvc-09-best-practise-swagger</module>
     </modules>
 
 </project>

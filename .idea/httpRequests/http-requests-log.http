@@ -1,3 +1,12 @@
+GET http://localhost:8080/api/v1/employee/1
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-09-16T101017.200.json
+
+###
+
 PUT http://localhost:8080/api/v1/employee
 Content-Type: application/json
 Accept: application/json
@@ -810,15 +819,6 @@ content-length: 3
 i=2
 
 <> 2025-09-14T140345.404.json
-
-###
-
-GET http://localhost:8080/exp1
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-09-14T135619.200.json
 
 ###
 

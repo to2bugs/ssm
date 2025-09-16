@@ -30,6 +30,7 @@
         <option value="$PROJECT_DIR$/springmvc-06-best-practise-interceptor/pom.xml" />
         <option value="$PROJECT_DIR$/springmvc-07-best-practise-exception/pom.xml" />
         <option value="$PROJECT_DIR$/springmvc-08-best-practise-validate/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc-09-best-practise-swagger/pom.xml" />
       </list>
     </option>
   </component>
