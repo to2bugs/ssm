@@ -1,5 +1,6 @@
 package com.otto.springmvc.common;
 
+import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
 
 /**
@@ -10,10 +11,16 @@ import lombok.Data;
  *          "data": 数据对象, // 服务器返回给前端的数据对象
  *      }
  */
+@Schema(description = "统一返回对象")
 @Data
 public class R<T> {
+    @Schema(description = "状态码")
     private Integer code;
+
+    @Schema(description = "提示消息")
     private String msg;
+
+    @Schema(description = "数据")
     private T data;
 
     public static R ok() {

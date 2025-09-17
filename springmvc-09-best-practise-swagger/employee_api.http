@@ -12,12 +12,13 @@ Content-Type: application/json
 Accept: application/json
 
 {
-  "name": "哈哈",
-  "age": 28,
-  "address": "上元区",
-  "email": "hah@qq.com",
-  "gender": "女",
-  "salary": "4949.49"
+  "name": "to2bage",
+  "age": 50,
+  "address": "庐阳区",
+  "email": "to2bage@qq.com",
+  "gender": "男",
+  "salary": "7032.12",
+  "birth": "1975/12/30 13:30:00"
 }
 
 ### 修改员工

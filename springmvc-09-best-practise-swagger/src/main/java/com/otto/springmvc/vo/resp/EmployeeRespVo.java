@@ -1,5 +1,4 @@
-package com.otto.springmvc.bean;
-
+package com.otto.springmvc.vo.resp;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
@@ -8,7 +7,8 @@ import java.math.BigDecimal;
 import java.util.Date;
 
 @Data
-public class Employee {
+public class EmployeeRespVo {
+
     private Integer id;
     private String name;
     private Integer age;

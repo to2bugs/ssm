@@ -1031,7 +1031,7 @@ DYNAMIC</Options>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="313" parent="300" name="id">
-      <AutoIncrement>4</AutoIncrement>
+      <AutoIncrement>13</AutoIncrement>
       <Comment>员工id</Comment>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -1067,12 +1067,16 @@ DYNAMIC</Options>
       <Position>7</Position>
       <StoredType>decimal(10,2 digit)|0s</StoredType>
     </column>
-    <index id="320" parent="300" name="PRIMARY">
+    <column id="320" parent="300" name="birth">
+      <Position>8</Position>
+      <StoredType>datetime|0s</StoredType>
+    </column>
+    <index id="321" parent="300" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="321" parent="300" name="PRIMARY">
+    <key id="322" parent="300" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>

@@ -31,8 +31,9 @@
         <option value="$PROJECT_DIR$/springmvc-07-best-practise-exception/pom.xml" />
         <option value="$PROJECT_DIR$/springmvc-08-best-practise-validate/pom.xml" />
         <option value="$PROJECT_DIR$/springmvc-09-best-practise-swagger/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc-10-dispatcherServlet/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_23_PREVIEW" project-jdk-name="23" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="corretto-17" project-jdk-type="JavaSDK" />
 </project>

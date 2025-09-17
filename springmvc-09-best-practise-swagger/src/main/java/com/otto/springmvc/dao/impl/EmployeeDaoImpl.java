@@ -24,8 +24,8 @@ public class EmployeeDaoImpl implements EmployeeDao {
 
     @Override
     public void insertEmployee(Employee employee) {
-        String sql = "insert into employee (name, age, email, gender, address, salary) values (?, ?, ?, ?, ?, ?)";
-        int cnt = jdbcTemplate.update(sql, employee.getName(), employee.getAge(), employee.getEmail(), employee.getGender(), employee.getAddress(), employee.getSalary());
+        String sql = "insert into employee (name, age, email, gender, address, salary, birth) values (?, ?, ?, ?, ?, ?, ?)";
+        int cnt = jdbcTemplate.update(sql, employee.getName(), employee.getAge(), employee.getEmail(), employee.getGender(), employee.getAddress(), employee.getSalary(), employee.getBirth());
         System.out.println("新增成功，影响行数: " + cnt);
     }
 
