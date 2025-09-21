@@ -45,6 +45,7 @@
         <module>springmvc-08-best-practise-validate</module>
         <module>springmvc-09-best-practise-swagger</module>
         <module>springmvc-10-dispatcherServlet</module>
+        <module>mybatis-01-helloworld</module>
     </modules>
 
 </project>

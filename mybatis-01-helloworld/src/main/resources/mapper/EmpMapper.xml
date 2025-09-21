@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<!--
+    namespace: mapper接口的全类名，代表的是这个xml文件和这个接口进行绑定
+
+    ${}: 是把参数值直接拼接在sql语句中，是拼接的方式，可以能回出现sql注入的问题不安全⚠️
+         但也不是一无是处，比如在sql语句中表名字不确定时，只能使用${}进行拼接，而不是#{}
+    #{}: 是把参数当作额外的parameters进行传递的，sql语句中依然使用占位符'?'，是预编译的方式
+-->
+<mapper namespace="com.otto.mybatis.mapper.EmpMapper">
+
+    <sql id="empColums">
+        id, emp_name, age, emp_salary
+    </sql>
+
+    <!-- id 绑定方法名称 -->
+    <select id="getEmpById" resultType="com.otto.mybatis.bean.Emp">
+        select id, emp_name, age, emp_salary from t_emp where id = #{abc}
+    </select>
+
+    <!-- ‼️‼️‼️ 通过useGeneratedKeys="true"，获取自增的ID；并通过 keyProperty="id" 设置接受这个自增值的字段   ‼️‼️‼️ -->
+    <insert id="addEmp" useGeneratedKeys="true" keyProperty="id">
+        insert into t_emp (emp_name, age, emp_salary) values (#{employee.empName}, #{employee.age}, #{employee.empSalary})
+    </insert>
+
+    <update id="updateEmp">
+        update t_emp
+        <set>
+            <if test="empName != null and empName != ''">
+                emp_name = #{empName}
+            </if>
+            <if test="age != null">
+                age = #{age}
+            </if>
+            <if test="empSalary != null">
+                emp_salary = #{empSalary}
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <delete id="deleteEmpById">
+        delete from t_emp where id = #{empId}
+    </delete>
+
+    <!-- 返回的是集合，resultType还写对象类型，即集合中的元素类型 -->
+    <select id="getAllEmp" resultType="com.otto.mybatis.bean.Emp">
+        select id, emp_name, age, emp_salary from t_emp;
+    </select>
+
+    <select id="getEmpById2" resultType="com.otto.mybatis.bean.Emp">
+        select
+            <include refid="empColums" />
+        from ${tn} where id = #{empId}
+    </select>
+
+    <select id="getAllEmpWithPage" resultType="com.otto.mybatis.bean.Emp">
+        select
+            <include refid="empColums" />
+        from t_emp
+    </select>
+</mapper>

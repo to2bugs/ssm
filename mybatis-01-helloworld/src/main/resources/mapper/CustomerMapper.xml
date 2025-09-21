@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.otto.mybatis.mapper.CustomerMapper">
+
+    <resultMap id="customerRM" type="com.otto.mybatis.bean.Customer">
+        <id property="id" column="id" />
+        <result property="customerName" column="customer_name" />
+        <result property="phone" column="phone" />
+        <!-- collection: 说明 一对多 的封装规则-->
+        <collection property="orders" ofType="com.otto.mybatis.bean.Order">
+            <id property="id" column="o_id" />
+            <result property="amount" column="amount" />
+            <result property="address" column="address" />
+            <result property="customerId" column="customer_id" />
+        </collection>
+    </resultMap>
+    <select id="getCustomerByIdWidthOrders" resultMap="customerRM">
+        select
+            c.*,
+            o.id o_id,
+            o.address,
+            o.amount,
+            o.customer_id
+        from t_customer c left join t_order o on c.id = o.customer_id
+        where c.id = #{id}
+    </select>
+</mapper>

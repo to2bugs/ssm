@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.otto.mybatis.mapper.EmpDynamicSQLMapper">
+    <!--
+        sql 片段
+        sql 抽取
+        include 引用
+    -->
+    <sql id="empColumns">
+        id, emp_name, age, emp_salary
+    </sql>
+
+
+    <!--
+        if 标签 test判断
+            emp_name like '%${name}%'  注意这里是${name}
+            emp_name like "%${name}%"  注意这里是${name}
+            emp_name like concat("%", #{name}, "%") 注意这里是#{name}
+
+            emp_name like "%" + #{name} + "%" 这是错误的写法
+            emp_name like "%" + ${name} + "%" 这是错误的写法
+            emp_name like '%#{name}%' 这是错误的写法
+            emp_name like concat("%", ${name}, "%") 这是错误的写法
+        where 标签 解决where后面的语法错误问题
+    -->
+    <select id="selectEmpByNameOrSalary" resultType="com.otto.mybatis.bean.Emp">
+        select
+            <include refid="empColumns" />
+        from t_emp
+        <where>
+            <if test="name != null and name != ''">
+                and emp_name like concat("%", #{name}, "%")
+            </if>
+            <if test="salary != null">
+                and emp_salary = #{salary}
+            </if>
+        </where>
+    </select>
+    <!--
+        prefix: 前缀，如果<trim>标签体中有东西，就给它们拼一个前缀
+        prefixOverrides: 前缀覆盖，<trim>标签体中最终生成的字符串，如果以指定前缀开始，就覆盖层空串
+        suffix: 后缀
+        suffixOverrides: 后缀覆盖
+    -->
+    <select id="selectEmpByNameOrSalaryTrim" resultType="com.otto.mybatis.bean.Emp">
+        select
+        id, emp_name, age, emp_salary
+        from t_emp
+        <trim prefix="where" prefixOverrides="and | or">
+            <if test="name != null and name != ''">
+                and emp_name like concat("%", #{name}, "%")
+            </if>
+            <if test="salary != null">
+                and emp_salary = #{salary}
+            </if>
+        </trim>
+    </select>
+    <!--
+        ‼️
+        choose when otherwise
+        类似于 switch case 只能有一个条件符合哦，即要么是查询emp_name，要么是查询emp_salary，要么是查询id
+    -->
+    <select id="selectEmpByNameOrSalaryWhen" resultType="com.otto.mybatis.bean.Emp">
+        select
+            *
+        from t_emp
+        <where>
+            <choose>
+                <when test="name != null and name != ''">
+                    and emp_name like concat("%", #{name}, "%")
+                </when>
+                <when test="salary != null">
+                    and emp_salary = #{salary}
+                </when>
+                <otherwise>
+                    and id = 1
+                </otherwise>
+            </choose>
+        </where>
+    </select>
+
+    <update id="updateEmp" parameterType="com.otto.mybatis.bean.Emp">
+        update t_emp
+        <set>
+            <if test="empName != null and empName != ''">
+                emp_name = #{empName},
+            </if>
+            <if test="age != null">
+                age = #{age},
+            </if>
+            <if test="empSalary != null">
+                emp_salary = #{empSalary},
+            </if>
+        </set>
+        <where>
+            id = #{id}
+        </where>
+    </update>
+    <update id="updateEmpTrim" parameterType="com.otto.mybatis.bean.Emp">
+        update t_emp
+        <trim prefix="set" suffixOverrides=",">
+            <if test="empName != null and empName != ''">
+                emp_name = #{empName},
+            </if>
+            <if test="age != null">
+                age = #{age},
+            </if>
+            <if test="empSalary != null">
+                emp_salary = #{empSalary},
+            </if>
+        </trim>
+        <where>
+            id = #{id}
+        </where>
+    </update>
+
+
+    <!--
+        <foreach> 标签
+            collection: 集合的名字，即@Param(“集合的名字”)
+            item: 集合中的每一个元素
+            separator: 集合中元素之间拼接的分隔符
+            open: 整个遍历以什么打开，这里是 (，遍历不开始就不会有
+            close: 整个遍历以什么关闭，这里是 )
+    -->
+    <select id="getEmpsByIds" parameterType="com.otto.mybatis.bean.Emp" resultType="com.otto.mybatis.bean.Emp">
+        select
+            id, emp_name, age, emp_salary
+        from t_emp
+            <if test="idList != null and !idList.isEmpty()">
+                <trim prefix="where">
+                    id in
+                    <foreach collection="idList" item="item" separator="," open="(" close=")">
+                        #{item}
+                    </foreach>
+                </trim>
+            </if>
+
+    </select>
+
+    <!--
+        批量插入数据
+    -->
+    <insert id="addEmps" parameterType="com.otto.mybatis.bean.Emp">
+        insert into t_emp (emp_name, age, emp_salary)
+        values
+            <foreach collection="empList" item="emp" separator=",">
+                (#{emp.empName}, #{emp.age}, #{emp.empSalary})
+            </foreach>
+    </insert>
+
+
+    <!--
+        批量更新数据
+    -->
+    <update id="updateBatchEmps01">
+        <foreach collection="empList" item="emp" separator=";">
+            update t_emp
+            <set>
+                <if test="emp.empName != null and emp.empName != ''">
+                    emp_name = #{emp.empName},
+                </if>
+                <if test="emp.empSalary != null">
+                    emp_salary = #{emp.empSalary},
+                </if>
+                <if test="emp.age != null">
+                    age = #{emp.age},
+                </if>
+            </set>
+            <where>
+                id = #{emp.id}
+            </where>
+        </foreach>
+    </update>
+</mapper>

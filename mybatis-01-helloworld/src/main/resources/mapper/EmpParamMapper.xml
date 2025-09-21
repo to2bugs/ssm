@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.otto.mybatis.mapper.EmpParamMapper">
+
+    <select id="getEmploy" resultType="com.otto.mybatis.bean.Emp">
+        # 单个参数时，变量名可以随便写，比如xml文件中是变量abc 而mapper中使用的是id
+        select * from t_emp where id = #{abc}
+    </select>
+
+    <select id="getEmploy02" parameterType="java.lang.Integer" resultType="com.otto.mybatis.bean.Emp">
+        # 单个参数时，变量名可以随便写，比如xml文件中是变量abc 而mapper中使用的是ids
+        # 单个参数且是数组类型时，xml文件中的变量abc[1]
+        select * from t_emp where id = #{abc[1]}
+    </select>
+
+    <insert id="addEmploy" useGeneratedKeys="true" keyProperty="id">
+        # 单个参数时，且参数是对象时，xml文件中的变量就是对象的属性哦
+        insert into t_emp (emp_name, age, emp_salary) values (#{empName}, #{age}, #{empSalary})
+    </insert>
+
+    <insert id="addEmploy02" useGeneratedKeys="true" keyProperty="id">
+        # 单个参数时，且参数是Map时，xml文件中的变量就是Map的key
+        insert into t_emp (emp_name, age, emp_salary) values (#{empName}, #{age}, #{empSalary})
+    </insert>
+</mapper>

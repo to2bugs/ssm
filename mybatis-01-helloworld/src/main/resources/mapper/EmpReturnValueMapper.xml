@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.otto.mybatis.mapper.EmpReturnValueMapper">
+    <select id="countEmp" resultType="java.lang.Integer">
+        select count(*) from t_emp
+    </select>
+    <select id="getEmpSalaryById" resultType="java.math.BigDecimal">
+        select emp_salary from t_emp where id = #{id}
+    </select>
+    <select id="getAllEmployee" resultType="com.otto.mybatis.bean.Emp">
+        select * from t_emp
+    </select>
+
+
+    <!-- resultMap告诉MyBatis如何映射封装，id指定规则的名字，type指定Java Bean的类型 -->
+    <resultMap id="empRM" type="com.otto.mybatis.bean.Emp">
+        <!-- id：声明主键的映射规则-->
+        <id column="id" property="id" />
+        <!-- result: 非主键的映射规则。javaType指定Bean的属性empName的类型，jdbcType指定字段emp_name在数据库中的类型 -->
+        <result column="emp_name" property="empName" javaType="java.lang.String" jdbcType="VARCHAR" />
+        <result column="age" property="age" />
+        <result column="emp_salary" property="empSalary" />
+    </resultMap>
+    <select id="getEmpById01" resultMap="empRM">
+        select * from t_emp where id = #{id}
+    </select>
+
+</mapper>

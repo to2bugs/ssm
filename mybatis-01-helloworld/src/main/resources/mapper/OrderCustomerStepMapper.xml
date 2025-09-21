@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.otto.mybatis.mapper.OrderCustomerStepMapper">
+    <select id="getCustomerById" resultType="com.otto.mybatis.bean.Customer">
+        select id, customer_name, phone from t_customer where id = #{id}
+    </select>
+    <select id="getOrdersByCustomerId" resultType="com.otto.mybatis.bean.Order">
+        select * from t_order where customer_id = #{customerId}
+    </select>
+
+    <!-- MyBatis的分步操作 -->
+    <!-- 定义MyBatis分步查询的自定义结果集 -->
+    <resultMap id="CustomerOrdersStepRM" type="com.otto.mybatis.bean.Customer">
+        <id property="id" column="id" />
+        <result property="customerName" column="customer_name" />
+        <result property="phone" column="phone" />
+        <!--
+            告诉MyBatis，封装 orders 属性的时候，是一个集合，但是这个集合需要通过 select 调用另一个sql进行查询
+            select: 指定另一个需要执行的sql方法的全名
+            column: 指定上一次查询的哪一列作为需要执行的sql方法的参数
+                    这里是 select id, customer_name, phone from t_customer where id = #{id} 中的列id
+                    写法：
+                     1. column="id"，将上一次查询得到的结果的列id，传递给select指定的方法, 如示例
+                     2. column = "{@Param的参数名1=列名1, @Param的参数名2=列名2}"
+                        假如当前的mapper方法是：Customer getCustomerByIdAndOrdersStep(@Param("cid") Long id, @Param("name") String name)
+                        则 column="{cid=id, name=customer_name}"
+        -->
+        <collection property="orders"
+                    ofType="com.otto.mybatis.bean.Order"
+                    select="com.otto.mybatis.mapper.OrderCustomerStepMapper.getOrdersByCustomerId"
+                    column="id"
+        >
+
+        </collection>
+    </resultMap>
+    <select id="getCustomerByIdAndOrdersStep" resultMap="CustomerOrdersStepRM">
+        select id, customer_name, phone from t_customer where id = #{id}
+    </select>
+
+
+    <!--
+
+    -->
+    <resultMap id="OrderCustomerRM" type="com.otto.mybatis.bean.Order">
+        <id property="id" column="id" />
+        <result property="address" column="address" />
+        <result property="amount" column="amount" />
+        <result property="customerId" column="customer_id" />
+        <!--
+            customer 属性关联一个对象，启动下一次查询，查询这个客户
+        -->
+        <association property="customer"
+                     javaType="com.otto.mybatis.bean.Customer"
+                     select="com.otto.mybatis.mapper.OrderCustomerStepMapper.getCustomerById"
+                     column="customer_id"
+        >
+
+        </association>
+    </resultMap>
+    <select id="getOrderByIdAndCustomerStep" resultMap="OrderCustomerRM">
+        select id, address, amount, customer_id
+        from t_order
+        where id = #{id}
+    </select>
+
+
+    <!--
+
+    -->
+    <select id="getCustomerByIdStep" resultMap="CustomerOrdersStepRM">
+        select id, customer_name, phone from t_customer where id = #{id}
+    </select>
+    <resultMap id="OrderCustomerOrdersRM" type="com.otto.mybatis.bean.Order">
+        <id property="id" column="id" />
+        <result property="address" column="address" />
+        <result property="amount" column="amount" />
+        <result property="customerId" column="customer_id" />
+        <!--
+            customer 属性关联一个对象，启动下一次查询，查询这个客户
+        -->
+        <association property="customer"
+                     javaType="com.otto.mybatis.bean.Customer"
+                     select="com.otto.mybatis.mapper.OrderCustomerStepMapper.getCustomerByIdStep"
+                     column="customer_id"
+        >
+
+        </association>
+    </resultMap>
+    <select id="getOrderByIdAndCustomerAndOtherOrderStep" resultMap="OrderCustomerOrdersRM">
+        select id, address, amount, customer_id
+        from t_order
+        where id = #{id}
+    </select>
+</mapper>
