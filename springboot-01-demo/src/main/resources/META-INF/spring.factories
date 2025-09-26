@@ -1,0 +1,2 @@
+# 定义Spingboot的监听器
+org.springframework.boot.SpringApplicationRunListener=com.otto.springboot.listener.MyListener

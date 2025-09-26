@@ -46,6 +46,11 @@
         <module>springmvc-09-best-practise-swagger</module>
         <module>springmvc-10-dispatcherServlet</module>
         <module>mybatis-01-helloworld</module>
+        <module>springboot-01-demo</module>
+        <module>mybatis-plus-01-crud-service</module>
+        <module>mybatis-plus-02-page</module>
+        <module>mybatis-plus-03-wrapper</module>
+        <module>mybatis-plus-04-Lambda-wrapper</module>
     </modules>
 
 </project>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.otto.mybatisplus.mapper.UserMapper">
+
+    <!--
+        resultType 写得是查询集合的泛型，即IPage<T>中的T，这里就是com.otto.mybatisplus.pojo.User
+        sql语句不要使用分号；结尾
+     -->
+    <select id="queryUserPageByAge" resultType="com.otto.mybatisplus.pojo.User">
+        select
+            id, name, age, email
+        from user
+        where age > #{age}
+    </select>
+
+</mapper>

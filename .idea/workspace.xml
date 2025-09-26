@@ -5,7 +5,84 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bec6672-d63b-4df2-8508-d7fca15bb22c" name="Changes" comment="项目的初始化">
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-01-crud-service/src/main/java/com/otto/mybatisplus/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-01-crud-service/src/main/java/com/otto/mybatisplus/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-01-crud-service/src/main/java/com/otto/mybatisplus/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-01-crud-service/src/main/java/com/otto/mybatisplus/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-01-crud-service/src/test/java/com/otto/mybatisplus/CRUDServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-02-page/src/main/java/com/otto/mybatisplus/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-02-page/src/main/java/com/otto/mybatisplus/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-02-page/src/main/java/com/otto/mybatisplus/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-02-page/src/main/java/com/otto/mybatisplus/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-02-page/src/main/java/com/otto/mybatisplus/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-02-page/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-03-wrapper/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-03-wrapper/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-03-wrapper/src/main/java/com/otto/mybatisplus/MybatisPlus02PageApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-03-wrapper/src/main/java/com/otto/mybatisplus/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-03-wrapper/src/main/java/com/otto/mybatisplus/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-03-wrapper/src/main/java/com/otto/mybatisplus/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-03-wrapper/src/main/java/com/otto/mybatisplus/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-03-wrapper/src/main/java/com/otto/mybatisplus/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-03-wrapper/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-03-wrapper/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-03-wrapper/src/test/java/com/otto/mybatisplus/MyBatisPlusQueryWrapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-03-wrapper/src/test/java/com/otto/mybatisplus/MyBatisPlusUpdateWrapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-04-Lambda-wrapper/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-04-Lambda-wrapper/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-04-Lambda-wrapper/src/main/java/com/otto/mybatisplus/MybatisPlus02PageApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-04-Lambda-wrapper/src/main/java/com/otto/mybatisplus/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-04-Lambda-wrapper/src/main/java/com/otto/mybatisplus/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-04-Lambda-wrapper/src/main/java/com/otto/mybatisplus/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-04-Lambda-wrapper/src/main/java/com/otto/mybatisplus/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-04-Lambda-wrapper/src/main/java/com/otto/mybatisplus/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-04-Lambda-wrapper/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-04-Lambda-wrapper/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-04-Lambda-wrapper/src/test/java/com/otto/mybatisplus/MyBatisPlusLambdaQueryWrapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-04-Lambda-wrapper/src/test/java/com/otto/mybatisplus/MyBatisPlusQueryWrapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-04-Lambda-wrapper/src/test/java/com/otto/mybatisplus/MyBatisPlusUpdateWrapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-05-annotation/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-05-annotation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-05-annotation/src/main/java/com/otto/mybatisplus/MybatisPlus05AnnotationApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-05-annotation/src/main/java/com/otto/mybatisplus/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-05-annotation/src/main/java/com/otto/mybatisplus/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-05-annotation/src/main/java/com/otto/mybatisplus/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-05-annotation/src/main/java/com/otto/mybatisplus/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-05-annotation/src/main/java/com/otto/mybatisplus/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-05-annotation/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-05-annotation/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-05-annotation/src/test/java/com/otto/mybatisplus/MyBatisPlusLambdaQueryWrapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-05-annotation/src/test/java/com/otto/mybatisplus/MyBatisPlusQueryWrapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-05-annotation/src/test/java/com/otto/mybatisplus/MyBatisPlusTableLogicTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-05-annotation/src/test/java/com/otto/mybatisplus/MyBatisPlusUpdateWrapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus-05-annotation/src/test/java/com/otto/mybatisplus/MyBatisPlusVersionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-01-demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-01-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-01-demo/src/main/java/com/otto/springboot/Springboot01DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-01-demo/src/main/java/com/otto/springboot/bean/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-01-demo/src/main/java/com/otto/springboot/config/MyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-01-demo/src/main/java/com/otto/springboot/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-01-demo/src/main/java/com/otto/springboot/event/UserLoginSuccessEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-01-demo/src/main/java/com/otto/springboot/listener/MyListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-01-demo/src/main/java/com/otto/springboot/properties/DogProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-01-demo/src/main/java/com/otto/springboot/service/CouponService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-01-demo/src/main/java/com/otto/springboot/service/UserPointsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-01-demo/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-01-demo/src/main/resources/application-common.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-01-demo/src/main/resources/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-01-demo/src/main/resources/application-otto.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-01-demo/src/main/resources/application-prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-01-demo/src/main/resources/application-test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-01-demo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-01-demo/src/test/java/com/otto/springboot/Springboot01DemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/78a45214-ee06-474a-9f4a-9330ca9d367c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/78a45214-ee06-474a-9f4a-9330ca9d367c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +117,10 @@
         <option value="spring-beans.schema" />
         <option value="AnnotationType" />
         <option value="HTML File" />
-        <option value="Interface" />
         <option value="HTTP Request" />
         <option value="Enum" />
+        <option value="Interface" />
+        <option value="Mybatis Mapper" />
         <option value="Class" />
       </list>
     </option>
@@ -95,122 +173,145 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;HTTP Request.employee_api | 修改员工.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.employee_api | 新增员工.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.employee_api | 查询所有的员工.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.employee_api | 根据id删除员工.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.employee_api | 根据id获取员工 (1).executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.employee_api | 根据id获取员工.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.handleException | #2.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.handleException | #4.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.handleException | GET request to example server.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.handleException | 声明式异常处理.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.rest-api | #2.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.rest-api | #3.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.rest-api | #4.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.rest-api | #5.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.rest-api | #6.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.rest-api | ???.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.rest-api_1 | #2.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.rest-api_2 | #1.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.rest-api_2 | #2.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.rest-api_2 | #3.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BookDaoTest.testGetBookPriceById.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BookDaoTest.testQuery.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Spring10AopApplicationTests.testMathCalculator.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Spring10AopApplicationTests.testMathCalculatorDynamicProxy.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Spring10AopApplicationTests.testSelfDefineDynamicProxy.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Spring11AopApplicationTests.testAspect.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Spring12AopRoundApplicationTests.testArround.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Spring13TxApplicationTests.testAddBook.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Spring13TxApplicationTests.testDataSource.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Spring13TxApplicationTests.testDeleteBookById.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Spring13TxApplicationTests.testGetBookById.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Spring13TxApplicationTests.testSubAccountByUsername.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Spring13TxApplicationTests.testUpdateBookStockById.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Spring14TxIsolationApplicationTests.contextLoads.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Springmvc05ResTfulApplicationTests.testDeleteEmployeeById.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Springmvc05ResTfulApplicationTests.testFindEmployeeById.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Springmvc05ResTfulApplicationTests.testInsertEmployee.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Springmvc05ResTfulApplicationTests.testUpdateEmployee.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UserShoppingBookTest.testCheckout.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UserShoppingBookTest.testTransaction.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.spring-04-other-annotation [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.spring-05-inject [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.spring-06-configurationproperties [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.spring-08-spring-xml [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.spring-10-aop [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.spring-10-aop-dynamic-proxy [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.springmvc-01-helloworld [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.ssm [clean].executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;Spring Boot.Spring01IocApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Spring02ConfigurationApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Spring03MvcApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Spring04OtherAnnotationApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Spring05InjectApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Spring06ConfigurationpropertiesApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Spring07ProfileApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Spring08SpringXmlApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Spring09LifecycleApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Spring10AopApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Spring11AopApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Spring11BeanFactoryApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;Spring Boot.Spring12AopRoundApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Spring13TxApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Spring14TxIsolationApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Spring15TxPropgationApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Spring16SourceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Springmvc01HelloworldApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Springmvc02RequestApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Springmvc03ResponseApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Springmvc04ThymeleafApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Springmvc05ResTfulApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Springmvc06BestPractiseInterceptorApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Springmvc07BestPractiseExceptionApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Springmvc08BestPractiseValidateApplication (1).executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Springmvc08BestPractiseValidateApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Springmvc09BestPractiseSwaggerApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Springmvc10DispatcherServletApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/to2bagezero/Downloads/ssm/springmvc-09-best-practise-swagger&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.33333334&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.grazie&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "HTTP Request.employee_api | 修改员工.executor": "Run",
+    "HTTP Request.employee_api | 新增员工.executor": "Run",
+    "HTTP Request.employee_api | 查询所有的员工.executor": "Run",
+    "HTTP Request.employee_api | 根据id删除员工.executor": "Run",
+    "HTTP Request.employee_api | 根据id获取员工 (1).executor": "Run",
+    "HTTP Request.employee_api | 根据id获取员工.executor": "Run",
+    "HTTP Request.handleException | #2.executor": "Run",
+    "HTTP Request.handleException | #4.executor": "Run",
+    "HTTP Request.handleException | GET request to example server.executor": "Run",
+    "HTTP Request.handleException | 声明式异常处理.executor": "Run",
+    "HTTP Request.rest-api | #2.executor": "Run",
+    "HTTP Request.rest-api | #3.executor": "Run",
+    "HTTP Request.rest-api | #4.executor": "Run",
+    "HTTP Request.rest-api | #5.executor": "Run",
+    "HTTP Request.rest-api | #6.executor": "Run",
+    "HTTP Request.rest-api | ???.executor": "Run",
+    "HTTP Request.rest-api_1 | #2.executor": "Run",
+    "HTTP Request.rest-api_2 | #1.executor": "Run",
+    "HTTP Request.rest-api_2 | #2.executor": "Run",
+    "HTTP Request.rest-api_2 | #3.executor": "Run",
+    "JUnit.BookDaoTest.testGetBookPriceById.executor": "Run",
+    "JUnit.BookDaoTest.testQuery.executor": "Run",
+    "JUnit.CRUDServiceTest.testGetOrList.executor": "Run",
+    "JUnit.CRUDServiceTest.testRemove.executor": "Run",
+    "JUnit.CRUDServiceTest.testSave.executor": "Run",
+    "JUnit.CRUDServiceTest.testSaveOrUpdate.executor": "Run",
+    "JUnit.MyBatisPlusLambdaQueryWrapperTest.test.executor": "Run",
+    "JUnit.MyBatisPlusQueryWrapperTest.test_01.executor": "Run",
+    "JUnit.MyBatisPlusQueryWrapperTest.test_02.executor": "Run",
+    "JUnit.MyBatisPlusQueryWrapperTest.test_03.executor": "Run",
+    "JUnit.MyBatisPlusQueryWrapperTest.test_06.executor": "Run",
+    "JUnit.MyBatisPlusTableLogicTest.testLoginDelete.executor": "Run",
+    "JUnit.MyBatisPlusVersionTest.test.executor": "Run",
+    "JUnit.MybatisPlus01DemoApplicationTests.test.executor": "Run",
+    "JUnit.MybatisPlus01DemoApplicationTests.testDelete.executor": "Run",
+    "JUnit.MybatisPlus01DemoApplicationTests.testInsert.executor": "Run",
+    "JUnit.MybatisPlus01DemoApplicationTests.testSelect.executor": "Run",
+    "JUnit.MybatisPlus01DemoApplicationTests.testUpdate.executor": "Run",
+    "JUnit.MybatisPlusPageTests.testPage.executor": "Run",
+    "JUnit.MybatisPlusPageTests.testPage2.executor": "Run",
+    "JUnit.Spring10AopApplicationTests.testMathCalculator.executor": "Run",
+    "JUnit.Spring10AopApplicationTests.testMathCalculatorDynamicProxy.executor": "Run",
+    "JUnit.Spring10AopApplicationTests.testSelfDefineDynamicProxy.executor": "Run",
+    "JUnit.Spring11AopApplicationTests.testAspect.executor": "Run",
+    "JUnit.Spring12AopRoundApplicationTests.testArround.executor": "Run",
+    "JUnit.Spring13TxApplicationTests.testAddBook.executor": "Run",
+    "JUnit.Spring13TxApplicationTests.testDataSource.executor": "Run",
+    "JUnit.Spring13TxApplicationTests.testDeleteBookById.executor": "Run",
+    "JUnit.Spring13TxApplicationTests.testGetBookById.executor": "Run",
+    "JUnit.Spring13TxApplicationTests.testSubAccountByUsername.executor": "Run",
+    "JUnit.Spring13TxApplicationTests.testUpdateBookStockById.executor": "Run",
+    "JUnit.Spring14TxIsolationApplicationTests.contextLoads.executor": "Run",
+    "JUnit.Springboot01DemoApplicationTests.contextLoads.executor": "Debug",
+    "JUnit.Springboot01DemoApplicationTests.testLogger.executor": "Run",
+    "JUnit.Springmvc05ResTfulApplicationTests.testDeleteEmployeeById.executor": "Run",
+    "JUnit.Springmvc05ResTfulApplicationTests.testFindEmployeeById.executor": "Run",
+    "JUnit.Springmvc05ResTfulApplicationTests.testInsertEmployee.executor": "Run",
+    "JUnit.Springmvc05ResTfulApplicationTests.testUpdateEmployee.executor": "Run",
+    "JUnit.UserShoppingBookTest.testCheckout.executor": "Run",
+    "JUnit.UserShoppingBookTest.testTransaction.executor": "Run",
+    "Maven.mybatis-plus-01-crud-service [clean].executor": "Run",
+    "Maven.spring-04-other-annotation [clean].executor": "Run",
+    "Maven.spring-05-inject [clean].executor": "Run",
+    "Maven.spring-06-configurationproperties [clean].executor": "Run",
+    "Maven.spring-08-spring-xml [clean].executor": "Run",
+    "Maven.spring-10-aop [clean].executor": "Run",
+    "Maven.spring-10-aop-dynamic-proxy [clean].executor": "Run",
+    "Maven.springmvc-01-helloworld [clean].executor": "Run",
+    "Maven.ssm [clean].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.MybatisPlus05AnnotationApplication.executor": "Run",
+    "Spring Boot.Spring01IocApplication.executor": "Run",
+    "Spring Boot.Spring02ConfigurationApplication.executor": "Run",
+    "Spring Boot.Spring03MvcApplication.executor": "Run",
+    "Spring Boot.Spring04OtherAnnotationApplication.executor": "Run",
+    "Spring Boot.Spring05InjectApplication.executor": "Run",
+    "Spring Boot.Spring06ConfigurationpropertiesApplication.executor": "Run",
+    "Spring Boot.Spring07ProfileApplication.executor": "Run",
+    "Spring Boot.Spring08SpringXmlApplication.executor": "Run",
+    "Spring Boot.Spring09LifecycleApplication.executor": "Run",
+    "Spring Boot.Spring10AopApplication.executor": "Run",
+    "Spring Boot.Spring11AopApplication.executor": "Run",
+    "Spring Boot.Spring11BeanFactoryApplication.executor": "Debug",
+    "Spring Boot.Spring12AopRoundApplication.executor": "Run",
+    "Spring Boot.Spring13TxApplication.executor": "Run",
+    "Spring Boot.Spring14TxIsolationApplication.executor": "Run",
+    "Spring Boot.Spring15TxPropgationApplication.executor": "Run",
+    "Spring Boot.Spring16SourceApplication.executor": "Run",
+    "Spring Boot.Springboot01DemoApplication.executor": "Run",
+    "Spring Boot.Springmvc01HelloworldApplication.executor": "Run",
+    "Spring Boot.Springmvc02RequestApplication.executor": "Run",
+    "Spring Boot.Springmvc03ResponseApplication.executor": "Run",
+    "Spring Boot.Springmvc04ThymeleafApplication.executor": "Run",
+    "Spring Boot.Springmvc05ResTfulApplication.executor": "Run",
+    "Spring Boot.Springmvc06BestPractiseInterceptorApplication.executor": "Run",
+    "Spring Boot.Springmvc07BestPractiseExceptionApplication.executor": "Run",
+    "Spring Boot.Springmvc08BestPractiseValidateApplication (1).executor": "Run",
+    "Spring Boot.Springmvc08BestPractiseValidateApplication.executor": "Run",
+    "Spring Boot.Springmvc09BestPractiseSwaggerApplication.executor": "Run",
+    "Spring Boot.Springmvc10DispatcherServletApplication.executor": "Debug",
+    "git-widget-placeholder": "main",
+    "ignore.preview.features.used": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/to2bagezero/Downloads/ssm",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.33333334",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/mybatis-plus-02-page/src/main/java/com/otto/mybatisplus" />
       <recent name="$PROJECT_DIR$/springmvc-09-best-practise-swagger" />
       <recent name="$PROJECT_DIR$/springmvc-09-best-practise-swagger/src/main/java/com/otto/springmvc" />
       <recent name="$PROJECT_DIR$/springmvc-08-best-practise-validate" />
-      <recent name="$PROJECT_DIR$/springmvc-08-best-practise-validate/src/main/java/com/otto/springmvc08bestpractisevalidate" />
-      <recent name="$PROJECT_DIR$/springmvc-07-best-practise-exception/src/main/java/com/otto/springmvc" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/springmvc-04-thymeleaf/src/main/resources/templates/page" />
@@ -225,25 +326,393 @@
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
+    <option name="configurationStatuses">
+      <map>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <map>
+              <entry key="MybatisPlus05AnnotationApplication" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="ssm" />
+  <component name="RunManager" selected="JUnit.MyBatisPlusVersionTest.test">
+    <configuration name="MyBatisPlusQueryWrapperTest.test_02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-plus-03-wrapper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.otto.mybatisplus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.otto.mybatisplus" />
+      <option name="MAIN_CLASS_NAME" value="com.otto.mybatisplus.MyBatisPlusQueryWrapperTest" />
+      <option name="METHOD_NAME" value="test_02" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="ssm" />
-      <option name="filePath" />
-      <method v="2" />
+    <configuration name="MyBatisPlusQueryWrapperTest.test_03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-plus-03-wrapper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.otto.mybatisplus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.otto.mybatisplus" />
+      <option name="MAIN_CLASS_NAME" value="com.otto.mybatisplus.MyBatisPlusQueryWrapperTest" />
+      <option name="METHOD_NAME" value="test_03" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
+    <configuration name="MyBatisPlusQueryWrapperTest.test_06" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-plus-03-wrapper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.otto.mybatisplus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.otto.mybatisplus" />
+      <option name="MAIN_CLASS_NAME" value="com.otto.mybatisplus.MyBatisPlusQueryWrapperTest" />
+      <option name="METHOD_NAME" value="test_06" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisPlusTableLogicTest.testLoginDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-plus-05-annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.otto.mybatisplus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.otto.mybatisplus" />
+      <option name="MAIN_CLASS_NAME" value="com.otto.mybatisplus.MyBatisPlusTableLogicTest" />
+      <option name="METHOD_NAME" value="testLoginDelete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisPlusVersionTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-plus-05-annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.otto.mybatisplus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.otto.mybatisplus" />
+      <option name="MAIN_CLASS_NAME" value="com.otto.mybatisplus.MyBatisPlusVersionTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mybatis01HelloworldApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mybatis-01-helloworld" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.otto.mybatis.Mybatis01HelloworldApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisPlus01DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mybatis-plus-01-crud-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.otto.mybatisplus.MybatisPlus01DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisPlus02PageApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mybatis-plus-03-wrapper" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.otto.mybatisplus.MybatisPlus02PageApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisPlus02PageApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mybatis-plus-04-lambda-wrapper" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.otto.mybatisplus.MybatisPlus02PageApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisPlus02PageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mybatis-plus-02-page" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.otto.mybatisplus.MybatisPlus02PageApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisPlus05AnnotationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mybatis-plus-05-annotation" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.otto.mybatisplus.MybatisPlus05AnnotationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring01IocApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-01-ioc" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.otto.ioc.Spring01IocApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring02ConfigurationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-02-configuration" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.otto.configuration.Spring02ConfigurationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring03MvcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-03-mvc" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.otto.spring.Spring03MvcApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring04OtherAnnotationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-04-other-annotation" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.otto.spring.Spring04OtherAnnotationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring05InjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-05-inject" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.otto.spring.Spring05InjectApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring06ConfigurationpropertiesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-06-configurationproperties" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.otto.spring.Spring06ConfigurationpropertiesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring07ProfileApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-07-profile" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.otto.spring.Spring07ProfileApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring08SpringXmlApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-08-spring-xml" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.otto.spring.Spring08SpringXmlApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring09LifecycleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-09-lifecycle" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.otto.spring.Spring09LifecycleApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring10AopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-10-aop-dynamic-proxy" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.otto.spring.Spring10AopApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring11AopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-11-aop" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.otto.spring.Spring11AopApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring11BeanFactoryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-11-beanFactory" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.otto.spring.Spring11BeanFactoryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring12AopRoundApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-12-aop-round" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.otto.spring12aopround.Spring12AopRoundApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring13TxApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-13-tx" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.otto.spring.Spring13TxApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring14TxIsolationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-14-tx-isolation" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.otto.spring.Spring14TxIsolationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring15TxPropgationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-15-tx-propgation" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.otto.spring.Spring15TxPropgationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring16SourceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-16-source" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.otto.spring.Spring16SourceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot01DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springboot-01-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.otto.springboot.Springboot01DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springmvc01HelloworldApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springmvc-01-helloworld" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.otto.springmvc.Springmvc01HelloworldApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springmvc02RequestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springmvc-02-request" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.otto.springmvc.Springmvc02RequestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springmvc03ResponseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springmvc-03-response" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.otto.springmvc.Springmvc03ResponseApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springmvc04ThymeleafApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springmvc-04-thymeleaf" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.otto.springmvc.Springmvc04ThymeleafApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springmvc05ResTfulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springmvc-05-RESTful" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.otto.springmvc.Springmvc05ResTfulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springmvc06BestPractiseInterceptorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springmvc-06-best-practise-interceptor" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.otto.springmvc.Springmvc06BestPractiseInterceptorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springmvc07BestPractiseExceptionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springmvc-07-best-practise-exception" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.otto.springmvc.Springmvc07BestPractiseExceptionApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springmvc08BestPractiseValidateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springmvc-08-best-practise-validate" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.otto.springmvc.Springmvc08BestPractiseValidateApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springmvc09BestPractiseSwaggerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springmvc-09-best-practise-swagger" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.otto.springmvc.Springmvc09BestPractiseSwaggerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springmvc10DispatcherServletApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springmvc-10-dispatcherServlet" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.otto.springmvc.Springmvc10DispatcherServletApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.MyBatisPlusTableLogicTest.testLoginDelete" />
+      <item itemvalue="JUnit.MyBatisPlusVersionTest.test" />
+      <item itemvalue="JUnit.MyBatisPlusQueryWrapperTest.test_02" />
+      <item itemvalue="JUnit.MyBatisPlusQueryWrapperTest.test_03" />
+      <item itemvalue="JUnit.MyBatisPlusQueryWrapperTest.test_06" />
+      <item itemvalue="Spring Boot.MybatisPlus05AnnotationApplication" />
+      <item itemvalue="Spring Boot.MybatisPlus02PageApplication (2)" />
+      <item itemvalue="Spring Boot.MybatisPlus02PageApplication (1)" />
+      <item itemvalue="Spring Boot.MybatisPlus02PageApplication" />
+      <item itemvalue="Spring Boot.Springboot01DemoApplication" />
+      <item itemvalue="Spring Boot.Mybatis01HelloworldApplication" />
+      <item itemvalue="Spring Boot.MybatisPlus01DemoApplication" />
+      <item itemvalue="Spring Boot.Spring01IocApplication" />
+      <item itemvalue="Spring Boot.Spring02ConfigurationApplication" />
+      <item itemvalue="Spring Boot.Spring03MvcApplication" />
+      <item itemvalue="Spring Boot.Spring04OtherAnnotationApplication" />
+      <item itemvalue="Spring Boot.Spring05InjectApplication" />
+      <item itemvalue="Spring Boot.Spring06ConfigurationpropertiesApplication" />
+      <item itemvalue="Spring Boot.Spring07ProfileApplication" />
+      <item itemvalue="Spring Boot.Spring08SpringXmlApplication" />
+      <item itemvalue="Spring Boot.Spring09LifecycleApplication" />
+      <item itemvalue="Spring Boot.Spring10AopApplication" />
+      <item itemvalue="Spring Boot.Spring11AopApplication" />
+      <item itemvalue="Spring Boot.Spring11BeanFactoryApplication" />
+      <item itemvalue="Spring Boot.Spring12AopRoundApplication" />
+      <item itemvalue="Spring Boot.Spring13TxApplication" />
+      <item itemvalue="Spring Boot.Spring14TxIsolationApplication" />
+      <item itemvalue="Spring Boot.Spring15TxPropgationApplication" />
+      <item itemvalue="Spring Boot.Spring16SourceApplication" />
+      <item itemvalue="Spring Boot.Springmvc01HelloworldApplication" />
+      <item itemvalue="Spring Boot.Springmvc02RequestApplication" />
+      <item itemvalue="Spring Boot.Springmvc03ResponseApplication" />
+      <item itemvalue="Spring Boot.Springmvc04ThymeleafApplication" />
+      <item itemvalue="Spring Boot.Springmvc05ResTfulApplication" />
+      <item itemvalue="Spring Boot.Springmvc06BestPractiseInterceptorApplication" />
+      <item itemvalue="Spring Boot.Springmvc07BestPractiseExceptionApplication" />
+      <item itemvalue="Spring Boot.Springmvc08BestPractiseValidateApplication" />
+      <item itemvalue="Spring Boot.Springmvc09BestPractiseSwaggerApplication" />
+      <item itemvalue="Spring Boot.Springmvc10DispatcherServletApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MyBatisPlusVersionTest.test" />
+        <item itemvalue="JUnit.MyBatisPlusTableLogicTest.testLoginDelete" />
+        <item itemvalue="JUnit.MyBatisPlusQueryWrapperTest.test_06" />
+        <item itemvalue="JUnit.MyBatisPlusQueryWrapperTest.test_03" />
+        <item itemvalue="JUnit.MyBatisPlusQueryWrapperTest.test_02" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
-        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-IU-252.25557.131" />
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26199.169" />
+        <option value="bundled-js-predefined-d6986cc7102b-9c94529fcfe0-JavaScript-IU-252.26199.169" />
       </set>
     </attachedChunks>
   </component>
@@ -302,6 +771,19 @@
       <workItem from="1758065778216" duration="601000" />
       <workItem from="1758066467772" duration="7329000" />
       <workItem from="1758084264424" duration="6000" />
+      <workItem from="1758454776443" duration="2533000" />
+      <workItem from="1758501021804" duration="3898000" />
+      <workItem from="1758510567754" duration="4035000" />
+      <workItem from="1758535982140" duration="3939000" />
+      <workItem from="1758590406809" duration="9156000" />
+      <workItem from="1758622890140" duration="7536000" />
+      <workItem from="1758672506644" duration="5076000" />
+      <workItem from="1758679312567" duration="11103000" />
+      <workItem from="1758709417245" duration="1826000" />
+      <workItem from="1758716224546" duration="506000" />
+      <workItem from="1758718729628" duration="2509000" />
+      <workItem from="1758758807230" duration="563000" />
+      <workItem from="1758759384048" duration="5847000" />
     </task>
     <task id="LOCAL-00001" summary="项目的初始化">
       <option name="closed" value="true" />
@@ -329,6 +811,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="mybatis fin" />
     <MESSAGE value="项目的初始化" />
     <option name="LAST_COMMIT_MESSAGE" value="项目的初始化" />
   </component>

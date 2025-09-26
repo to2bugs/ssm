@@ -1,0 +1,112 @@
+2025-09-23T14:00:57.893+08:00  INFO 6970 --- [springboot-01-demo] [main] c.otto.springboot.listener.MyListener    : MyListener environmentPrepared
+2025-09-23T14:00:57.944+08:00  INFO 6970 --- [springboot-01-demo] [main] c.otto.springboot.listener.MyListener    : MyListener contextPrepared
+2025-09-23T14:00:57.946+08:00  INFO 6970 --- [springboot-01-demo] [main] c.o.s.Springboot01DemoApplication        : Starting Springboot01DemoApplication using Java 17.0.16 with PID 6970 (/Users/to2bagezero/Downloads/ssm/springboot-01-demo/target/classes started by to2bagezero in /Users/to2bagezero/Downloads/ssm)
+2025-09-23T14:00:57.946+08:00 DEBUG 6970 --- [springboot-01-demo] [main] c.o.s.Springboot01DemoApplication        : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-09-23T14:00:57.947+08:00  INFO 6970 --- [springboot-01-demo] [main] c.o.s.Springboot01DemoApplication        : The following 5 profiles are active: "otto", "common", "to2bage", "dev", "test"
+2025-09-23T14:00:57.967+08:00  INFO 6970 --- [springboot-01-demo] [main] c.otto.springboot.listener.MyListener    : MyListener contextLoaded
+2025-09-23T14:00:58.268+08:00  INFO 6970 --- [springboot-01-demo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-23T14:00:58.274+08:00  INFO 6970 --- [springboot-01-demo] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-23T14:00:58.274+08:00  INFO 6970 --- [springboot-01-demo] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-09-23T14:00:58.288+08:00  INFO 6970 --- [springboot-01-demo] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-23T14:00:58.289+08:00  INFO 6970 --- [springboot-01-demo] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 321 ms
+2025-09-23T14:00:58.402+08:00  INFO 6970 --- [springboot-01-demo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-09-23T14:00:58.406+08:00  INFO 6970 --- [springboot-01-demo] [main] c.o.s.Springboot01DemoApplication        : Started Springboot01DemoApplication in 0.738 seconds (process running for 0.97)
+2025-09-23T14:00:58.406+08:00  INFO 6970 --- [springboot-01-demo] [main] c.otto.springboot.listener.MyListener    : MyListener started
+2025-09-23T14:00:58.407+08:00  INFO 6970 --- [springboot-01-demo] [main] c.otto.springboot.listener.MyListener    : MyListener ready
+2025-09-23T14:05:14.719+08:00  INFO 6970 --- [springboot-01-demo] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-23T14:05:14.724+08:00  INFO 6970 --- [springboot-01-demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-23T14:53:31.934+08:00  INFO 7480 --- [springboot-01-demo] [main] c.otto.springboot.listener.MyListener    : MyListener environmentPrepared
+2025-09-23T14:53:31.967+08:00  INFO 7480 --- [springboot-01-demo] [main] c.otto.springboot.listener.MyListener    : MyListener contextPrepared
+2025-09-23T14:53:31.969+08:00  INFO 7480 --- [springboot-01-demo] [main] c.o.s.Springboot01DemoApplication        : Starting Springboot01DemoApplication using Java 17.0.16 with PID 7480 (/Users/to2bagezero/Downloads/ssm/springboot-01-demo/target/classes started by to2bagezero in /Users/to2bagezero/Downloads/ssm)
+2025-09-23T14:53:31.969+08:00 DEBUG 7480 --- [springboot-01-demo] [main] c.o.s.Springboot01DemoApplication        : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-09-23T14:53:31.969+08:00  INFO 7480 --- [springboot-01-demo] [main] c.o.s.Springboot01DemoApplication        : The following 5 profiles are active: "otto", "common", "to2bage", "dev", "test"
+2025-09-23T14:53:31.986+08:00  INFO 7480 --- [springboot-01-demo] [main] c.otto.springboot.listener.MyListener    : MyListener contextLoaded
+2025-09-23T14:53:32.269+08:00  INFO 7480 --- [springboot-01-demo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-23T14:53:32.274+08:00  INFO 7480 --- [springboot-01-demo] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-23T14:53:32.274+08:00  INFO 7480 --- [springboot-01-demo] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-09-23T14:53:32.286+08:00  INFO 7480 --- [springboot-01-demo] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-23T14:53:32.286+08:00  INFO 7480 --- [springboot-01-demo] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 300 ms
+2025-09-23T14:53:32.391+08:00  INFO 7480 --- [springboot-01-demo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-09-23T14:53:32.394+08:00  INFO 7480 --- [springboot-01-demo] [main] c.o.s.Springboot01DemoApplication        : Started Springboot01DemoApplication in 0.628 seconds (process running for 0.802)
+2025-09-23T14:53:32.395+08:00  INFO 7480 --- [springboot-01-demo] [main] c.otto.springboot.listener.MyListener    : MyListener started
+2025-09-23T14:53:32.395+08:00  INFO 7480 --- [springboot-01-demo] [main] c.otto.springboot.listener.MyListener    : MyListener ready
+2025-09-23T14:53:48.593+08:00  INFO 7480 --- [springboot-01-demo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-23T14:53:48.594+08:00  INFO 7480 --- [springboot-01-demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-09-23T14:53:48.594+08:00  INFO 7480 --- [springboot-01-demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-09-23T14:53:52.136+08:00  INFO 7480 --- [springboot-01-demo] [http-nio-8080-exec-2] c.o.s.controller.LoginController         : otto 登陆成功
+2025-09-23T14:53:52.139+08:00  INFO 7480 --- [springboot-01-demo] [http-nio-8080-exec-2] c.o.s.service.UserPointsService          : 监听到class com.otto.springboot.event.UserLoginSuccessEvent事件
+2025-09-23T14:53:52.139+08:00  INFO 7480 --- [springboot-01-demo] [http-nio-8080-exec-2] c.o.s.service.UserPointsService          : yh: otto 获得积分
+2025-09-23T14:53:58.919+08:00  INFO 7480 --- [springboot-01-demo] [http-nio-8080-exec-3] c.o.s.controller.LoginController         : otto 登陆成功
+2025-09-23T14:53:58.920+08:00  INFO 7480 --- [springboot-01-demo] [http-nio-8080-exec-3] c.o.s.service.UserPointsService          : 监听到class com.otto.springboot.event.UserLoginSuccessEvent事件
+2025-09-23T14:53:58.921+08:00  INFO 7480 --- [springboot-01-demo] [http-nio-8080-exec-3] c.o.s.service.UserPointsService          : yh: otto 获得积分
+2025-09-23T14:57:10.760+08:00  INFO 7480 --- [springboot-01-demo] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-23T14:57:10.764+08:00  INFO 7480 --- [springboot-01-demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-23T14:57:12.115+08:00  INFO 7513 --- [springboot-01-demo] [main] c.otto.springboot.listener.MyListener    : MyListener environmentPrepared
+2025-09-23T14:57:12.145+08:00  INFO 7513 --- [springboot-01-demo] [main] c.otto.springboot.listener.MyListener    : MyListener contextPrepared
+2025-09-23T14:57:12.147+08:00  INFO 7513 --- [springboot-01-demo] [main] c.o.s.Springboot01DemoApplication        : Starting Springboot01DemoApplication using Java 17.0.16 with PID 7513 (/Users/to2bagezero/Downloads/ssm/springboot-01-demo/target/classes started by to2bagezero in /Users/to2bagezero/Downloads/ssm)
+2025-09-23T14:57:12.147+08:00 DEBUG 7513 --- [springboot-01-demo] [main] c.o.s.Springboot01DemoApplication        : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-09-23T14:57:12.147+08:00  INFO 7513 --- [springboot-01-demo] [main] c.o.s.Springboot01DemoApplication        : The following 5 profiles are active: "otto", "common", "to2bage", "dev", "test"
+2025-09-23T14:57:12.163+08:00  INFO 7513 --- [springboot-01-demo] [main] c.otto.springboot.listener.MyListener    : MyListener contextLoaded
+2025-09-23T14:57:12.430+08:00  INFO 7513 --- [springboot-01-demo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-23T14:57:12.435+08:00  INFO 7513 --- [springboot-01-demo] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-23T14:57:12.435+08:00  INFO 7513 --- [springboot-01-demo] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-09-23T14:57:12.449+08:00  INFO 7513 --- [springboot-01-demo] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-23T14:57:12.449+08:00  INFO 7513 --- [springboot-01-demo] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 286 ms
+2025-09-23T14:57:12.554+08:00  INFO 7513 --- [springboot-01-demo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-09-23T14:57:12.558+08:00  INFO 7513 --- [springboot-01-demo] [main] c.o.s.Springboot01DemoApplication        : Started Springboot01DemoApplication in 0.588 seconds (process running for 0.75)
+2025-09-23T14:57:12.558+08:00  INFO 7513 --- [springboot-01-demo] [main] c.otto.springboot.listener.MyListener    : MyListener started
+2025-09-23T14:57:12.559+08:00  INFO 7513 --- [springboot-01-demo] [main] c.otto.springboot.listener.MyListener    : MyListener ready
+2025-09-23T14:57:19.640+08:00  INFO 7513 --- [springboot-01-demo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-23T14:57:19.640+08:00  INFO 7513 --- [springboot-01-demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-09-23T14:57:19.641+08:00  INFO 7513 --- [springboot-01-demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-09-23T14:57:19.660+08:00  INFO 7513 --- [springboot-01-demo] [http-nio-8080-exec-1] c.o.s.controller.LoginController         : otto 登陆成功
+2025-09-23T14:57:19.661+08:00  INFO 7513 --- [springboot-01-demo] [http-nio-8080-exec-1] c.o.s.service.UserPointsService          : 监听到class com.otto.springboot.event.UserLoginSuccessEvent事件
+2025-09-23T14:57:19.662+08:00  INFO 7513 --- [springboot-01-demo] [http-nio-8080-exec-1] c.o.s.service.UserPointsService          : yh: otto 获得积分
+2025-09-23T14:57:33.024+08:00  INFO 7513 --- [springboot-01-demo] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-23T14:57:33.026+08:00  INFO 7513 --- [springboot-01-demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-23T14:57:33.979+08:00  INFO 7527 --- [springboot-01-demo] [main] c.otto.springboot.listener.MyListener    : MyListener environmentPrepared
+2025-09-23T14:57:34.004+08:00  INFO 7527 --- [springboot-01-demo] [main] c.otto.springboot.listener.MyListener    : MyListener contextPrepared
+2025-09-23T14:57:34.005+08:00  INFO 7527 --- [springboot-01-demo] [main] c.o.s.Springboot01DemoApplication        : Starting Springboot01DemoApplication using Java 17.0.16 with PID 7527 (/Users/to2bagezero/Downloads/ssm/springboot-01-demo/target/classes started by to2bagezero in /Users/to2bagezero/Downloads/ssm)
+2025-09-23T14:57:34.005+08:00 DEBUG 7527 --- [springboot-01-demo] [main] c.o.s.Springboot01DemoApplication        : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-09-23T14:57:34.006+08:00  INFO 7527 --- [springboot-01-demo] [main] c.o.s.Springboot01DemoApplication        : The following 5 profiles are active: "otto", "common", "to2bage", "dev", "test"
+2025-09-23T14:57:34.019+08:00  INFO 7527 --- [springboot-01-demo] [main] c.otto.springboot.listener.MyListener    : MyListener contextLoaded
+2025-09-23T14:57:34.295+08:00  INFO 7527 --- [springboot-01-demo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-23T14:57:34.300+08:00  INFO 7527 --- [springboot-01-demo] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-23T14:57:34.300+08:00  INFO 7527 --- [springboot-01-demo] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-09-23T14:57:34.312+08:00  INFO 7527 --- [springboot-01-demo] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-23T14:57:34.312+08:00  INFO 7527 --- [springboot-01-demo] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 292 ms
+2025-09-23T14:57:34.419+08:00  INFO 7527 --- [springboot-01-demo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-09-23T14:57:34.423+08:00  INFO 7527 --- [springboot-01-demo] [main] c.o.s.Springboot01DemoApplication        : Started Springboot01DemoApplication in 0.593 seconds (process running for 0.776)
+2025-09-23T14:57:34.423+08:00  INFO 7527 --- [springboot-01-demo] [main] c.otto.springboot.listener.MyListener    : MyListener started
+2025-09-23T14:57:34.424+08:00  INFO 7527 --- [springboot-01-demo] [main] c.otto.springboot.listener.MyListener    : MyListener ready
+2025-09-23T14:57:43.804+08:00  INFO 7527 --- [springboot-01-demo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-23T14:57:43.804+08:00  INFO 7527 --- [springboot-01-demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-09-23T14:57:43.805+08:00  INFO 7527 --- [springboot-01-demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-09-23T14:57:43.821+08:00  INFO 7527 --- [springboot-01-demo] [http-nio-8080-exec-1] c.o.s.controller.LoginController         : otto 登陆成功
+2025-09-23T14:57:43.821+08:00  INFO 7527 --- [springboot-01-demo] [http-nio-8080-exec-1] c.o.s.service.UserPointsService          : 监听到class com.otto.springboot.event.UserLoginSuccessEvent事件
+2025-09-23T14:57:43.821+08:00  INFO 7527 --- [springboot-01-demo] [http-nio-8080-exec-1] c.o.s.service.UserPointsService          : yh: otto 获得积分
+2025-09-23T15:00:23.051+08:00  INFO 7527 --- [springboot-01-demo] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-23T15:00:23.054+08:00  INFO 7527 --- [springboot-01-demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-23T15:00:24.388+08:00  INFO 7546 --- [springboot-01-demo] [main] c.otto.springboot.listener.MyListener    : MyListener environmentPrepared
+2025-09-23T15:00:24.413+08:00  INFO 7546 --- [springboot-01-demo] [main] c.otto.springboot.listener.MyListener    : MyListener contextPrepared
+2025-09-23T15:00:24.414+08:00  INFO 7546 --- [springboot-01-demo] [main] c.o.s.Springboot01DemoApplication        : Starting Springboot01DemoApplication using Java 17.0.16 with PID 7546 (/Users/to2bagezero/Downloads/ssm/springboot-01-demo/target/classes started by to2bagezero in /Users/to2bagezero/Downloads/ssm)
+2025-09-23T15:00:24.414+08:00 DEBUG 7546 --- [springboot-01-demo] [main] c.o.s.Springboot01DemoApplication        : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-09-23T15:00:24.414+08:00  INFO 7546 --- [springboot-01-demo] [main] c.o.s.Springboot01DemoApplication        : The following 5 profiles are active: "otto", "common", "to2bage", "dev", "test"
+2025-09-23T15:00:24.428+08:00  INFO 7546 --- [springboot-01-demo] [main] c.otto.springboot.listener.MyListener    : MyListener contextLoaded
+2025-09-23T15:00:24.693+08:00  INFO 7546 --- [springboot-01-demo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-23T15:00:24.697+08:00  INFO 7546 --- [springboot-01-demo] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-23T15:00:24.697+08:00  INFO 7546 --- [springboot-01-demo] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-09-23T15:00:24.708+08:00  INFO 7546 --- [springboot-01-demo] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-23T15:00:24.708+08:00  INFO 7546 --- [springboot-01-demo] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 280 ms
+2025-09-23T15:00:24.828+08:00  INFO 7546 --- [springboot-01-demo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-09-23T15:00:24.831+08:00  INFO 7546 --- [springboot-01-demo] [main] c.o.s.Springboot01DemoApplication        : Started Springboot01DemoApplication in 0.589 seconds (process running for 0.741)
+2025-09-23T15:00:24.832+08:00  INFO 7546 --- [springboot-01-demo] [main] c.otto.springboot.listener.MyListener    : MyListener started
+2025-09-23T15:00:24.833+08:00  INFO 7546 --- [springboot-01-demo] [main] c.otto.springboot.listener.MyListener    : MyListener ready
+2025-09-23T15:00:31.753+08:00  INFO 7546 --- [springboot-01-demo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-23T15:00:31.753+08:00  INFO 7546 --- [springboot-01-demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-09-23T15:00:31.754+08:00  INFO 7546 --- [springboot-01-demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-09-23T15:00:31.770+08:00  INFO 7546 --- [springboot-01-demo] [http-nio-8080-exec-1] c.o.s.controller.LoginController         : otto 登陆成功
+2025-09-23T15:00:31.772+08:00  INFO 7546 --- [springboot-01-demo] [task-1] c.o.s.service.UserPointsService          : 监听到class com.otto.springboot.event.UserLoginSuccessEvent事件
+2025-09-23T15:00:31.772+08:00  INFO 7546 --- [springboot-01-demo] [task-1] c.o.s.service.UserPointsService          : yh: otto 获得积分
+2025-09-23T15:02:09.970+08:00  INFO 7546 --- [springboot-01-demo] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-23T15:02:09.973+08:00  INFO 7546 --- [springboot-01-demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete

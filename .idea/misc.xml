@@ -32,6 +32,13 @@
         <option value="$PROJECT_DIR$/springmvc-08-best-practise-validate/pom.xml" />
         <option value="$PROJECT_DIR$/springmvc-09-best-practise-swagger/pom.xml" />
         <option value="$PROJECT_DIR$/springmvc-10-dispatcherServlet/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-01-helloworld/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-01-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-plus-01-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-plus-02-page/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-plus-03-wrapper/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-plus-04-Lambda-wrapper/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-plus-05-annotation/pom.xml" />
       </list>
     </option>
   </component>

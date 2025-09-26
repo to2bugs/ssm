@@ -1,0 +1,4 @@
+2025-09-22T18:49:47.767+08:00  INFO 2950 --- [springboot-01-demo] [main] c.o.s.Springboot01DemoApplicationTests   : Starting Springboot01DemoApplicationTests using Java 17.0.16 with PID 2950 (started by to2bagezero in /Users/to2bagezero/Downloads/ssm/springboot-01-demo)
+2025-09-22T18:49:47.767+08:00 DEBUG 2950 --- [springboot-01-demo] [main] c.o.s.Springboot01DemoApplicationTests   : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-09-22T18:49:47.768+08:00  INFO 2950 --- [springboot-01-demo] [main] c.o.s.Springboot01DemoApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2025-09-22T18:49:48.282+08:00  INFO 2950 --- [springboot-01-demo] [main] c.o.s.Springboot01DemoApplicationTests   : Started Springboot01DemoApplicationTests in 0.641 seconds (process running for 1.257)
